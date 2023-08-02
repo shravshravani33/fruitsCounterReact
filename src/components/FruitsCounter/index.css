@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+}
+.main-container {
+  background-color: #ffd569;
+  height: 100vh;
+  width: 100vw;
+  padding: 50px;
+  display: flex;
+  justify-content: center;
+}
+.sub-container {
+  background-color: #ffffff;
+  margin-bottom: 50px;
+  border-radius: 20px;
+  padding: 40px;
+  height: 100%;
+  width: 80%;
+}
+.mango-decor {
+  height: 250px;
+  width: 250px;
+}
+.banana-decor {
+  height: 250px;
+  width: 250px;
+}
+.heading {
+  text-align: center;
+  font-family: Roboto;
+  padding-top: 20px;
+  color: #000000;
+}
+.fruits-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 20px;
+}
+.mango-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+.banana-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+.banana-btn {
+  background-color: #007bff;
+  height: 30px;
+  width: 100px;
+  border-radius: 3px;
+  border-width: 0px;
+  color: #ffffff;
+  font-family: Roboto;
+  margin: 20px;
+  cursor: pointer;
+}
+.mango-btn {
+  background-color: #007bff;
+  height: 30px;
+  width: 100px;
+  border-radius: 3px;
+  border-width: 0px;
+  color: #ffffff;
+  font-family: Roboto;
+  margin: 20px;
+  cursor: pointer;
+}
+.mb-span {
+  color: #ffd569;
+}
